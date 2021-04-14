@@ -1,6 +1,6 @@
 # OSCPrep
 
-## Basics
+## **Basics**
 Basics folder:
     - Technologies
     - Tools
