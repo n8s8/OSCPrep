@@ -22,6 +22,7 @@ First purpose is to choose the protocol over which the data is to be transmitted
  - 2 most common protocols: 
    + TCP(=Transmission Control Protocol)
    + UDP(=User Datagram Protocol)
+
 A TCP connection allows the two computers to remain in constant communication to ensure that the data is sent at an acceptable speed, and that any lost data is re-sent. With UDP, the opposite is true; packets of data are essentially thrown at the receiving computer -- if it can't keep up then that's its problem (this is why a video transmission over something like Skype can be pixelated if the connection is bad). What this means is that TCP would usually be chosen for situations where accuracy is favoured over speed (e.g. file transfer, or loading a webpage), and UDP would be used in situations where speed is more important (e.g. video streaming).
 
 **With a protocol selected, the transport layer then divides the transmission up into bite-sized pieces** (over TCP these are called **segments**, over UDP they're called **datagrams**), which makes it easier to transmit the message successfully. 
