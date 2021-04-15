@@ -1,4 +1,4 @@
-# Essential/basic networking tools
+# Essential/basic network tools
 
 ## ping
 Used to test whether a connection to a remote resource is possible.
@@ -50,3 +50,33 @@ Whois manual:
 > `man whois`
 
 ## dig
+Dig allows to manually query recursive DNS servers of our choice for information about domains. 
+
+Basic syntax:
+> `dig <domain> @<dns-server-ip>`
+
+It is useful for network troubleshooting. 
+
+Example: 
+
+![dig demo](pictures/dig-demo.png "dig google.com @1.1.1.1")
+
+
+
+ - DNS = Domain Name System
+   - = a special server that gives us an IP address of a website that we are trying to access
+
+Process of making a request to a website:
+Computer checks local cache to se if the IP address is already stored. If yes, done, if not then next stage of process. A request will be sent to a *recursive DNS server*. These are known to the router on my network. Many ISPs maintain their own recursive servers, but companies such as Google and OpenDNS also control recursive servers. If a website requested is not in the cache, the recursive server will pass the request on to a *root name server*. 
+
+### Top-Level Domain (TLD)
+There are 13 root name DNS servers in the world. They keep track of the DNS servers in the next level down, choosing appropriate one to redirect your request to. These lower level servers are called Top-Level Domain(TLD) servers. 
+
+TLD servers are split into extensions.
+ - eg: if you visit tryhackme**.com**, redirect would be to .com TLD server
+ - eg: if you visit bbc**.co.uk**, redirect would be to .co.uk TLD server
+
+As with root name servers, TLD servers keep track of the next level down: Authoritative name servers. When a TLD server receives your request for info, the server passes it down to an appropriate Authoritive name server. 
+
+Authoritative name servers are used to store DNS records for domains directly -- every domain in the world will have its DNS records stored on an Authoritative name server somewhere or another; they are the source of the information. When your request reaches the authoritative name server for the domain querying, it will send relevant information back to you, allowing your computer to connect to the OP address behind the domain requested. 
+
