@@ -76,7 +76,12 @@ When we talk about TCP/IP, it's all well and good to think about a table with fo
 There are many protocols that make up the TCP/IP suite.
 
 ### TCP
+A three-way handshake:
  1. client request to initialise a connection SYN(synchronise) bit
- 1. server response packet with SYN and ACK(acknowledgement) bit
- 2. client response ACK bit by itself --> connection initialised 
+ 2. server response packet with SYN and ACK(acknowledgement) bit
+ 3. client response ACK bit by itself --> connection initialised 
+
+Any data that is lost/corrupted on transmission is re-sent, leading to a 'lossles' connection
+
+![syn synack ack](pictures/synack-ack.png "syn synack ack")
 
