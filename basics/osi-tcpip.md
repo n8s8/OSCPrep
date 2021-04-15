@@ -65,5 +65,6 @@ Basis for real-world networking, consisting of 4 layers: Application, Transport,
 > **note:** recent sources split the TCP/IP into 5 layers -- breaking the Network interface into Data link nad Physical layers. 
 
 OSI and TCP/IP match likeso:
+
 ![OSI | TCP/IP](pictures/osi-match-tcpip.png "OSI | TCP/IP")
 
