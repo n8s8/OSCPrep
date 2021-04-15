@@ -33,3 +33,5 @@ Observe that it took 13 hops to get from my access point(_gateway), mostly route
 
 Traceroute manual (on Linux):
 > `man traceroute`
+
+## whois
