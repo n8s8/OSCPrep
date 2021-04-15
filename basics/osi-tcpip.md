@@ -68,3 +68,15 @@ OSI and TCP/IP match likeso:
 
 ![OSI | TCP/IP](pictures/osi-match-tcpip.png "OSI | TCP/IP")
 
+### Set of rules
+When we talk about TCP/IP, it's all well and good to think about a table with four layers in it, but we're actually talking about a suite of protocols -- sets of rules that define how an action is to be carried out.
+ - TCP/IP:
+   - Transmission Control Protocol = flow of data between endpoints 
+   - Internet Protocol = controls how packets are addressed and sent
+There are many protocols that make up the TCP/IP suite.
+
+### TCP
+ 1. client request to initialise a connection SYN(synchronise) bit
+ 1. server response packet with SYN and ACK(acknowledgement) bit
+ 2. client response ACK bit by itself --> connection initialised 
+
