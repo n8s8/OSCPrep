@@ -11,7 +11,7 @@ Example:
 
 ![ping](pictures/ping-eg.png "ping google.com")
 
-Ping returned the IP address for the Google serveer that it connected to, rather than the requested URL. 
+Ping returned the IP address for the Google server that it connected to, rather than the requested URL. 
 
 Ping Manual(on Linux):
 > `man ping`
