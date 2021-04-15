@@ -35,3 +35,16 @@ Traceroute manual (on Linux):
 > `man traceroute`
 
 ## whois
+Whois allows you to query who a domain name is registered to. In Europe personal details are redacted; however, elsewhere you can get a great deal of information from a whois search. 
+
+Basic syntax:
+> `whois <domain>`
+
+Example: 
+
+![whois-eg](pictures/whois-eg.png "whois bb.co.uk")
+
+This is small information. Notice the domain name, company that registered the domain, the last renewal and the next due date, and info about nameservers. 
+
+Whosi manual:
+> `man whois`
