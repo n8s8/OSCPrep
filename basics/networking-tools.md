@@ -1,4 +1,4 @@
-# Essential and basic networking tools
+# Essential/basic networking tools
 
 ## ping
 Used to test whether a connection to a remote resource is possible.
@@ -13,5 +13,5 @@ Example:
 
 Ping returned the IP address for the Google server that it connected to, rather than the requested URL. 
 
-Ping Manual(on Linux):
+Ping Manual (on Linux):
 > `man ping`
