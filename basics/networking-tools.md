@@ -61,7 +61,13 @@ Example:
 
 ![dig demo](pictures/dig-demo.png "dig google.com @1.1.1.1")
 
+We sent one query and successfully(i.e. No Errors) received one full answer -- which contains the IP address for the domain name that we queried. TTL(Time To Live) of the queried DNS record, tells your computer when to stop considering the record as being valid -- eg: when it should request the data again, rather than relying on the cached copy. The TTL can be found here: 
 
+![dig demo](pictures/dig-demo-ttl.png "dig google.com @1.1.1.1")
+
+Remember that TTL(in context of DNS caching) is measured in seconds. 
+
+### Background info for dig
 
  - DNS = Domain Name System
    - = a special server that gives us an IP address of a website that we are trying to access
