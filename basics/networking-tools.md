@@ -88,4 +88,4 @@ Authoritative name servers are used to store DNS records for domains directly --
 
 
 ## Expand on networking:
-With [ICND1 book](https://www.amazon.co.uk/Interconnecting-Cisco-Network-Devices-ICND1/dp/1587054620/ref=sr_1_1?keywords=Interconnecting+Cisco+Network+Devices%2C+Part+1&qid=1583683766&sr=8-1 "Interconnecting Cisco Network Devices")
+[ICND1 book](https://www.amazon.co.uk/Interconnecting-Cisco-Network-Devices-ICND1/dp/1587054620/ref=sr_1_1?keywords=Interconnecting+Cisco+Network+Devices%2C+Part+1&qid=1583683766&sr=8-1 "Interconnecting Cisco Network Devices")
