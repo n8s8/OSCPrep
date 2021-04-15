@@ -19,6 +19,6 @@ Receives correctly formatted data from the Presentation layer. **It looks to mak
 
 ### Layer 4 -- Transport
 First purpose is to choose the protocol over which the data is to be transmitted. 
-    + 2 most common: 
-        - TCP(=Transmission Control Protocol)
-        - UDP(=User Datagram Protocol)
+    *2 most common: 
+        *TCP(=Transmission Control Protocol)
+        *UDP(=User Datagram Protocol)
