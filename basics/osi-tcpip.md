@@ -55,3 +55,10 @@ The data is passed down each layer of the model, more information containing det
 
 Notice that the encapsulated data is given a different name at different steps of the process. In layers 7,6 and 5, the data is simply referred to as data. In the transport layer the encapsulated data is referred to as a segment or a datagram.
 When the message is received by the second computer, it reverses the process -- __de-encapsulation__.
+
+
+## TCP/IP
+Basis for real-world networking, consisting of 4 layers: Application, Transport, Internet, Network Interface. Between them, they cover the same range of functions as the 7 layers of the OSI. 
+
+![TCP/IP](pictures/tcp-ip.png "TCP/IP")
+
