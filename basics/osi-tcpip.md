@@ -53,3 +53,5 @@ The data is passed down each layer of the model, more information containing det
 
 ![Encapsulation](pictures/encapsulation.jpeg "Encapsulation process")
 
+Notice that the encapsulated data is given a different name at different steps of the process. In layers 7,6 and 5, the data is simply referred to as data. In the transport layer the encapsulated data is referred to as a segment or a datagram.
+When the message is received by the second computer, it reverses the process -- __de-encapsulation__.
