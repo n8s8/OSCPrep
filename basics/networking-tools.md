@@ -6,3 +6,11 @@ Ping works using the ICMP protocol, which works on the Network layer of the OSI 
 
 Basic syntax:
 > `ping <target>`
+
+Example:
+![ping](pictures/ping-eg.png "ping google.com")
+
+Ping returned the IP address for the Google serveer that it connected to, rather than the requested URL. 
+
+Ping Manual(on Linux):
+> `man ping`
