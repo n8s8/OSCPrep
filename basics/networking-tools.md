@@ -46,5 +46,7 @@ Example:
 
 This is small information. Notice the domain name, company that registered the domain, the last renewal and the next due date, and info about nameservers. 
 
-Whosi manual:
+Whois manual:
 > `man whois`
+
+## dig
