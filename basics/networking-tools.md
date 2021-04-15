@@ -86,3 +86,6 @@ As with root name servers, TLD servers keep track of the next level down: Author
 
 Authoritative name servers are used to store DNS records for domains directly -- every domain in the world will have its DNS records stored on an Authoritative name server somewhere or another; they are the source of the information. When your request reaches the authoritative name server for the domain querying, it will send relevant information back to you, allowing your computer to connect to the OP address behind the domain requested. 
 
+
+## Expand on networking:
+With [ICND1 book](https://www.amazon.co.uk/Interconnecting-Cisco-Network-Devices-ICND1/dp/1587054620/ref=sr_1_1?keywords=Interconnecting+Cisco+Network+Devices%2C+Part+1&qid=1583683766&sr=8-1 "Interconnecting Cisco Network Devices")
