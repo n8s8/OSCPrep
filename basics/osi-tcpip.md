@@ -30,3 +30,26 @@ A TCP connection allows the two computers to remain in constant communication to
  - packet segmentation = process of dividing a data packet into smaller units for transmission over the network
  - datagram = independent entity of data carrying sufficient info to be routed from the source to destination without relience on early exchanges
 
+### Layer 3 -- Network
+**Responsible for locating the destination of your request**. It is the Network layer that takes the IP address for the page **and figures the best route to take**. 
+At this stage we work with Logical addressing which are still software controlled. Logical addresses provide order to networks, categorising them and allowing us to sort them. These are currently IPv4 and IPv6. 
+
+### Layer 2 -- Data Link
+Focuses on the physical addressing of the transmission. **A packet from Network layer is received(with the remote IP) and adds in MAC address of the receiving endpoint**. 
+Inside every network enabled computer is a Network Interface Card(NIC) with a unique Media Access Control(MAC) to identify it. 
+
+MAC is set and burnt into the card by the manufacturer -- but can be spoofed. 
+
+Additionally the **job of the Data Link layer is to present the data in a format suitable for transmission**. Data Link, **on the receiving end, checks the received information to make sure it is not corrupted**, which can happen during layer 1 transmission -- Physical. 
+
+### Layer 1 -- Physical
+Hardware of the computer.
+The electrical pulses that make up data transfer over a network over a network are sent and received. 
+The job of the Physical layer is to convert the binary data of the transmission into signals and transmit them across the network, as well as convert receiving signals back into binary data. 
+
+
+## Encapsulation
+The data is passed down each layer of the model, more information containing details specific to the layer. 
+
+![Encapsulation](pictures/encapsulation.jpeg "Encapsulation process")
+
